@@ -1,6 +1,9 @@
 // Initialize weather object
 const weather = new Weather('Boston', 'MA');
 
+// Initialize UI object
+const ui = new UI();
+
 // Get weather on DOM load
 document.addEventListener('DOMContentLoaded', getWeather);
 
